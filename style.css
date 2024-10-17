@@ -10,6 +10,7 @@
 body{
     font-family: var(--font-paragraph);
 }
+/* header */
 
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--font-heading);
@@ -31,4 +32,42 @@ nav a{
 
 .Home:hover{
     border-bottom: 2px solid #FF7858;
+    background-color: rgba(255, 166, 0, 0.836);
+}
+
+header p, h1{
+    color: var(--main-color);
+}
+
+/* main */
+
+h2 span{
+    border-bottom: 2px solid #FF7858;
+}
+
+.img-card1{
+    background-image: url(./card-img1.png);
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img-card2{
+    background-image: url(./card-img2.png);
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img-card3{
+    background-image: url(./card-img3.png);
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.position-img{
+    top: 450px;
+    left: 25px;
+    color: var(--main-color);
 }
