@@ -25,9 +25,20 @@ nav a{
     color:var(--main-color) !important;
 }
 
+.bottoncino{
+    color:white;
+    z-index: auto;
+}
+
 .btn-custom{
     background-color: var(--second-color);
-    color:var(--main-color)
+    color:var(--main-color);
+    padding: 10px 20px;
+}
+
+.btn-custom:hover{
+    border: 1px solid var(--second-color);
+    color:var(--second-color);
 }
 
 .Home:hover{
@@ -70,4 +81,86 @@ h2 span{
     top: 450px;
     left: 25px;
     color: var(--main-color);
+}
+
+/* sezione card 2 */
+
+.card-custom{
+    background-color: var(--card-color);
+}
+
+.star{
+    color: var(--second-color);
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+.price{
+    color: var(--second-color);
+    bottom: 0px;
+    left: 45px;
+    font-size: 25px;
+    
+}
+
+/* sezione Blog */
+
+.readm{
+    color: var(--second-color);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* sezione recensioni */
+
+.recensioni{
+    background-color: rgb(233, 233, 233);
+}
+
+.star2{
+    color: rgba(230, 141, 7, 0.808);
+}
+
+.icona{
+    font-size: 60px;
+    top:-55px;
+    left:30px;
+}
+
+/* sezione newsletter */
+
+.newscont{
+    border:1px solid;
+    border-color: rgb(209, 209, 209);
+    padding: 60px 20px;
+}
+
+.titolonews{
+    color: grey;
+}
+
+
+.form-floating{
+    color: var(--second-color);
+    left:330px;
+    bottom: -35px;
+    
+}
+
+.form-floating:hover{
+    color: white;
+}
+
+.form-control{
+    background-color: var(--card-color);
+    
+}
+
+.form-control:hover{
+    background-color: #fac193;
+}    
+
+.pulsante{ 
+    bottom: -13px;
+    left: 600px;   
 }
